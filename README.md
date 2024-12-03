@@ -20,15 +20,22 @@ Key Features:
 
   3. Design:
     * Dark Mode Theme:
+     
         The game uses a modern dark color palette for a comfortable and stylish visual experience.
+     
     * Dynamic Elements:
+    
         Ball and paddles are rendered dynamically using the <canvas> API for seamless performance.
+        
     * Responsive UI:
+    
         The scoreboard and game elements adapt to different screen sizes, maintaining usability.
 
-  4. Code Structure:
+  5. Code Structure:
     Modular, well-commented JavaScript for easy customization and understanding.
+
     Separation of concerns with dedicated index.html, style.css, and index.js files.
+    
     Clear and concise logic for game mechanics, making it a great resource for beginners.
 
 How to Play:
