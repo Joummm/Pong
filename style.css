@@ -1,0 +1,70 @@
+/* General body styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column; /* Ensure vertical stacking of elements */
+    justify-content: space-between; /* Space between content and footer */
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Game container */
+#gameContainer {
+    text-align: center;
+    margin-bottom: 20px; /* Space above the footer */
+    flex: 1; /* Allow the container to take available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the game vertically */
+}
+
+/* Canvas styles */
+#gameCanvas {
+    border: 3px solid #ffffff; /* White border */
+    background-color: #2b2b2b; /* Match background with JS */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+}
+
+/* Score display styles */
+#scoreDisplay {
+    font-family: "Consolas", monospace;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+/* Restart button styles */
+#restartButton {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    background: linear-gradient(145deg, #00bfff, #007acc); /* Gradient effect */
+    color: #ffffff;
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 30px; /* Rounded edges */
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    transition: all 0.3s ease;
+}
+
+#restartButton:hover {
+    background: linear-gradient(145deg, #007acc, #005f99); /* Darker gradient on hover */
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #1c1c1c; /* Dark footer background */
+    color: #aaaaaa; /* Light gray text */
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5); /* Top shadow for depth */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
