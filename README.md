@@ -7,13 +7,18 @@ Key Features:
 
   1. Gameplay:
     Two paddles controlled by keyboard inputs:
+
       Player 1: W (up) and S (down).
+     
       Player 2: Arrow keys (↑ and ↓).
+     
     A bouncing ball that increases in speed upon paddle collisions.
+    
     Real-time collision detection ensures precise gameplay mechanics.
+    
     A live scoreboard updates after each point scored.
 
-  2. Design:
+  3. Design:
     * Dark Mode Theme:
         The game uses a modern dark color palette for a comfortable and stylish visual experience.
     * Dynamic Elements:
@@ -21,7 +26,7 @@ Key Features:
     * Responsive UI:
         The scoreboard and game elements adapt to different screen sizes, maintaining usability.
 
-  3. Code Structure:
+  4. Code Structure:
     Modular, well-commented JavaScript for easy customization and understanding.
     Separation of concerns with dedicated index.html, style.css, and index.js files.
     Clear and concise logic for game mechanics, making it a great resource for beginners.
