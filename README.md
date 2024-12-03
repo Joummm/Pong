@@ -33,4 +33,3 @@ How to Play:
   4. The goal is to score points by hitting the ball past the opponent’s paddle.
   5. Press the Restart Game button at any time to reset the game and scoreboard.
 
-You can test the game, click in this link: https://pong-joumm.netlify.app
