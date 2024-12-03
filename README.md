@@ -29,7 +29,7 @@ Separation of concerns with dedicated index.html, style.css, and index.js files.
 Clear and concise logic for game mechanics, making it a great resource for beginners.
 
 How to Play:
-  1. Open the game in any modern web browser.
+  1. Go to the page: https://pong-joumm.netlify.app
   2. Player 1 uses W and S to move their paddle up and down.
   3. Player 2 uses the arrow keys (↑ and ↓) for the same controls.
   4. The goal is to score points by hitting the ball past the opponent’s paddle.
