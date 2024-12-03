@@ -3,30 +3,28 @@
 Pong Game: A Classic Arcade Experience
 This project is a modern rendition of the classic Pong game, developed using HTML, CSS, and JavaScript. Designed to be lightweight and visually appealing, it provides a fun and interactive way to experience the timeless two-player game. Here's a comprehensive overview:
 
-Key Features
-Gameplay:
+Key Features:
 
-Two paddles controlled by keyboard inputs:
-Player 1: W (up) and S (down).
-Player 2: Arrow keys (↑ and ↓).
-A bouncing ball that increases in speed upon paddle collisions.
-Real-time collision detection ensures precise gameplay mechanics.
-A live scoreboard updates after each point scored.
-Design:
+  1. Gameplay:
+    Two paddles controlled by keyboard inputs:
+      Player 1: W (up) and S (down).
+      Player 2: Arrow keys (↑ and ↓).
+    A bouncing ball that increases in speed upon paddle collisions.
+    Real-time collision detection ensures precise gameplay mechanics.
+    A live scoreboard updates after each point scored.
 
-Dark Mode Theme:
-The game uses a modern dark color palette for a comfortable and stylish visual experience.
-Dynamic Elements:
-Ball and paddles are rendered dynamically using the <canvas> API for seamless performance.
-Responsive UI:
-The scoreboard and game elements adapt to different screen sizes, maintaining usability.
-Footer:
-A footer at the bottom provides credits, adding a professional touch to the interface.
-Code Structure:
+  2. Design:
+    * Dark Mode Theme:
+        The game uses a modern dark color palette for a comfortable and stylish visual experience.
+    * Dynamic Elements:
+        Ball and paddles are rendered dynamically using the <canvas> API for seamless performance.
+    * Responsive UI:
+        The scoreboard and game elements adapt to different screen sizes, maintaining usability.
 
-Modular, well-commented JavaScript for easy customization and understanding.
-Separation of concerns with dedicated index.html, style.css, and index.js files.
-Clear and concise logic for game mechanics, making it a great resource for beginners.
+  3. Code Structure:
+    Modular, well-commented JavaScript for easy customization and understanding.
+    Separation of concerns with dedicated index.html, style.css, and index.js files.
+    Clear and concise logic for game mechanics, making it a great resource for beginners.
 
 How to Play:
   1. Go to the page: https://pong-joumm.netlify.app
@@ -34,3 +32,5 @@ How to Play:
   3. Player 2 uses the arrow keys (↑ and ↓) for the same controls.
   4. The goal is to score points by hitting the ball past the opponent’s paddle.
   5. Press the Restart Game button at any time to reset the game and scoreboard.
+
+You can test the game, click in this link: https://pong-joumm.netlify.app
